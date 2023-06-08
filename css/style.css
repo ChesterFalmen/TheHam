@@ -10,12 +10,16 @@
 
 }
 .first_section .navbar{
-    width: 1200px;
+    width: 100%;
     height: 120px;
     display: flex;
     align-items: center;
     background: rgba(94, 93, 88, 0.6);
     margin: 0 auto;
+}
+.first_section .navbar a{
+    display: flex;
+    text-decoration: none;
 }
 
 .first_section .navbar .container{
